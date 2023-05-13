@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(138, 209, 183);
+}
+h1{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-align: center;
+    color: blue;
+    padding: 1.2rem;
+}
+.dice{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.dice h2{
+   
+    font-family: monospace;
+    margin:auto;
+    padding: 18px;
+    color: yellow;
+}
+.dice img{
+    height: 155px;
+    width: 155px;
+    margin: auto;
+} 
+#dice1,#dice2{
+    margin: auto;
+}
+.btn{
+    display: block;
+    margin: 35px auto ;
+    padding: 8px;
+    justify-content: center;
+}
